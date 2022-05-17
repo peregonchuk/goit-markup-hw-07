@@ -2,11 +2,11 @@
   padding-top: 94px;
 }
 
-.list-benefits {
+.benefits-list {
   display: flex;
 }
 
-.list-benefits .item + .item {
+.benefits-list .benefits-list__itemitem + .benefits-list__itemitem {
   margin-left: 30px;
 }
 

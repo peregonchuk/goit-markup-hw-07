@@ -1,15 +1,28 @@
-@import './utils/vars.scss';
+// UTILS //
+
+@import './utils/vars';
 
 // Index Page //
 
-@import './layout/header';
 @import './layout/hero';
 @import './layout/benefits';
-@import './layout/tasks.scss';
+@import './layout/tasks';
 @import './layout/staff';
 @import './layout/clients';
-@import './layout/footer';
 
 // Portfolio Page //
 
-@import './layout/button';
+@import './layout/projects';
+@import './layout/modal';
+
+// Components //
+@import './components/button';
+@import './components/header';
+@import './components/footer';
+@import './components/container';
+
+// BASE //
+
+@import './base/reset';
+@import './base/visually-hidden';
+@import './base/body';
